@@ -27,7 +27,7 @@ const questions = [
         message: "Please write a short description of your project"
     },
     {
-        type: "checkbox",
+        type: "list",
         name: "license",
         message: "what kind of license should your project have",
         choices: [
@@ -61,7 +61,7 @@ function writeToFile(fileName, data) {
         if(err){
             return console.log(err);
         }
-        console.log("Success!")
+        console.log("Success!Readme created");
         
     });
 
@@ -70,17 +70,17 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
-    inquirer.prompt(questions).then(function(userInput){
-        fs.writeFile(README.md,userInput,err =>{
-
-            if(err){
-                return console.log(err);
-            }
-          console.log("Success! README.md created")
-        });
-    });
-}
+  
+    inquirer
+      .prompt(questions)
+      .then(function (userInput) {
+        writeToFile("README.md", userInput);
+      })
+      .catch(function (err) {
+        console.log(err);
+      });
+      
+  }
 
 // function call to initialize program
 init();
