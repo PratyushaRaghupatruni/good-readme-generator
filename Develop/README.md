@@ -1,9 +1,9 @@
-# sdc
+# sdfdf
 
-  ![github license]()
+  ![github license](https://img.shields.io/badge/license-MIT-green)
 
-  #Description 
-   sd
+  # Description 
+   fdg
 
   # Table of Contents 
 
@@ -13,20 +13,23 @@
   * [Tests](#test)
   * [Questions](#Questions)
 
-  # installation
- To Install the dependencies sadsd
+  # Installation
+  To Install the dependencies you should rin the following command
+  <pre><code> dffg</code><pre>
 
   # Usage
-  ds
+  fdg
 
-  # license
-  The project licensed under  None
+  # License
+  The project licensed under 
+  MIT License
 
   # Tests
-  you should be able to run ds to install dependencies
+  you should run the following command 
+  <pre><code>dfg</code><pre>
   
   # Questions
   * If you have any questions about the repo, here is my repo 
-  (https://github.com/dsc/sdc/issues/new) . 
-  * You can find  my work at [dsc](https://github.com/dsc).
+  (https://github.com/gdfg/sdfdf/issues/new) . 
+  * You can find  my work at [gdfg](https://github.com/gdfg).
   

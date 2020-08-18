@@ -1,32 +1,23 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   var license = data.license;
+  var licenseName="";
   console.log(data.title);
   console.log(data.license);
   var badge = "";
 
-    if (license === "MIT License") {
-      badge = "https://img.shields.io/badge/license-MIT-green";
-    }
-    if (license === "Apache License 2.0") {
-      badge = "https://img.shields.io/badge/license-Apache--2.0-blue";
-    }
-    if (license === "GNU General Public License 3.0") {
-      badge = "https://img.shields.io/badge/license-GPL%203.0-blue";
-    }
-    if (license == "BSD 3 License") {
-      badge = "https://img.shields.io/badge/license-BSD%203-green";
-    }
-    if (license === "none") {
-      badeg = "This project has no license";
-    }
-  
+   licenseName = (license === "MIT License") ? badge = "https://img.shields.io/badge/license-MIT-green" :
+                    (license === "Apache License 2.0") ? badge = "https://img.shields.io/badge/license-Apache--2.0-blue"  :
+                    (license === "GNU General Public License 3.0") ? badge = "https://img.shields.io/badge/license-GPL%203.0-blue" :
+                    (license === "BSD 3 License") ?  badge = "https://img.shields.io/badge/license-BSD%203-green" :
+                    badge= "This project has no license";
+ 
 
   return `# ${data.title}
 
   ![github license](${badge})
 
-  #Description 
+  # Description 
    ${data.Description}
 
   # Table of Contents 
@@ -37,17 +28,20 @@ function generateMarkdown(data) {
   * [Tests](#test)
   * [Questions](#Questions)
 
-  # installation
- To Install the dependencies ${data.installation}
+  # Installation
+  To Install the dependencies you should rin the following command
+  <pre><code> ${data.installation}</code><pre>
 
   # Usage
   ${data.usage}
 
-  # license
-  The project licensed under  ${license}
+  # License
+  The project licensed under 
+  ${license}
 
   # Tests
-  you should be able to run ${data.test} to install dependencies
+  you should run the following command 
+  <pre><code>${data.test}</code><pre>
   
   # Questions
   * If you have any questions about the repo, here is my repo 
