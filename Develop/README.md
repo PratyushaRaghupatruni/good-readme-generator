@@ -1,9 +1,9 @@
-# good-readme-generator
+# sample-project
 
   ![github license](https://img.shields.io/badge/license-MIT-green)
 
   # Description 
-   When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for.
+   Please provide description about your project
 
   # Table of Contents 
 
@@ -18,7 +18,7 @@
   <pre><code> npm install</code></pre>
 
   # Usage
-  AS A developer I WANT a README generator SO THAT can quickly create a professional README for a new project.
+  Please provide usage information
 
   # License
   The project licensed under 
@@ -30,6 +30,6 @@
   
   # Questions
   * If you have any questions about the repo, here is my repo 
-  (https://github.com/PratyushaRaghuaptruni/good-readme-generator/issues/new) . 
-  * You can find  my work at [PratyushaRaghuaptruni](https://github.com/PratyushaRaghuaptruni).
+  (https://github.com/PratyushaRaghupatruni/sample-project/issues/new) . 
+  * You can find  my work at [PratyushaRaghupatruni](https://github.com/PratyushaRaghupatruni).
   
