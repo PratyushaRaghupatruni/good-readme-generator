@@ -22,14 +22,14 @@ Node.js is an open-source, cross-platform, JavaScript runtime environment (Frame
 * NPM Package:
 Inquirer.js strives to be an easily embeddable and beautiful command line interface for Node.js.
 Inquirer.js should ease the process of
- * providing error feedback
- * asking questions
- * parsing input
- * validating answers
+   * providing error feedback
+   * asking questions
+   * parsing input
+   * validating answers
 
 # Installation:
 * Navigate to the 'Develop' folder. To install necessary dependencies, run the following command :
-   npm i
+  <pre<code> npm i</code></pre>
 * The application will be invoked with the following command:
   node index.js.
 
@@ -37,7 +37,7 @@ Inquirer.js should ease the process of
 * Run Commands listed in Installation
 * Running node index.js command will prompt user the questions about project repository, and with User's Answers 'README.md' file will be generated.
 
-  # Features:
-  * Uses Node.js to build application which generates README.md file dynamically with the user's input .
-  * Used Npm package 'Inquirer' to generate the Questions to the User.
+# Features:
+* Uses Node.js to build application which generates README.md file dynamically with the user's input .
+* Used Npm package 'Inquirer' to generate the Questions to the User.
 
