@@ -29,7 +29,7 @@ Inquirer.js should ease the process of
 
 # Installation:
 * Navigate to the 'Develop' folder. To install necessary dependencies, run the following command :
-  <pre<code> npm i</code></pre>
+  <pre><code> npm i</code></pre>
 * The application will be invoked with the following command:
   node index.js.
 
