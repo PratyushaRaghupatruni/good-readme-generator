@@ -30,7 +30,7 @@ function generateMarkdown(data) {
 
   # Installation
   To Install the dependencies you should rin the following command
-  <pre><code> ${data.installation}</code><pre>
+  <pre><code> ${data.installation}</code></pre>
 
   # Usage
   ${data.usage}
@@ -41,7 +41,7 @@ function generateMarkdown(data) {
 
   # Tests
   you should run the following command 
-  <pre><code>${data.test}</code><pre>
+  <pre><code>${data.test}</code></pre>
   
   # Questions
   * If you have any questions about the repo, here is my repo 

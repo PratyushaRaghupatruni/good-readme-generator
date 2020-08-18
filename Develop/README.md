@@ -1,9 +1,9 @@
-# sdfdf
+# good-readme-generator
 
   ![github license](https://img.shields.io/badge/license-MIT-green)
 
   # Description 
-   fdg
+   When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for.
 
   # Table of Contents 
 
@@ -15,10 +15,10 @@
 
   # Installation
   To Install the dependencies you should rin the following command
-  <pre><code> dffg</code><pre>
+  <pre><code> npm install</code></pre>
 
   # Usage
-  fdg
+  AS A developer I WANT a README generator SO THAT can quickly create a professional README for a new project.
 
   # License
   The project licensed under 
@@ -26,10 +26,10 @@
 
   # Tests
   you should run the following command 
-  <pre><code>dfg</code><pre>
+  <pre><code>npm test</code></pre>
   
   # Questions
   * If you have any questions about the repo, here is my repo 
-  (https://github.com/gdfg/sdfdf/issues/new) . 
-  * You can find  my work at [gdfg](https://github.com/gdfg).
+  (https://github.com/PratyushaRaghuaptruni/good-readme-generator/issues/new) . 
+  * You can find  my work at [PratyushaRaghuaptruni](https://github.com/PratyushaRaghuaptruni).
   
