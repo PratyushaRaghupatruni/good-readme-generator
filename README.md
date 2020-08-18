@@ -13,6 +13,7 @@ WHEN: I am prompted for information about my application repository
 THEN: A quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
 # Demo
+![IMAGE ALT TEXT HERE]
 
 # Technology:
 * Node.js:
