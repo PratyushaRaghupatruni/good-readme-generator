@@ -13,7 +13,7 @@ WHEN: I am prompted for information about my application repository
 THEN: A quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
 # Demo
-![alt text](https://github.com/PratyushaRaghupatruni/good-readme-generator/blob/master/Develop/images/readme.gif)
+![alt text](https://github.com/PratyushaRaghupatruni/good-readme-generator/blob/master/Develop/images/readmegenerator.gif)
 
 # Technology:
 * Node.js:
