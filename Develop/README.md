@@ -3,7 +3,7 @@
   ![github license](https://img.shields.io/badge/license-MIT-green)
 
   # Description 
-   Please provide description about your project
+   PLease provide a short description about your project
 
   # Table of Contents 
 
